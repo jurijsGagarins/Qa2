@@ -36,7 +36,7 @@ public class Homework1 {
         System.out.println("3. The circle's perimeter is: " + perimetrOfCircle + " meters and it needs " + Math.round(numberOfTurns * 100) / 100 + " turns to make 1000 km.");
         return perimetrOfCircle;
     }
-
+asd adasd asd
     //Math.round(a*100)/100
     // work :    56.965163, 24.116590
     // courses : 56.959359, 24.119212
