@@ -33,10 +33,11 @@ public class Homework1 {
     private double perimeterOfCircleAndNumberOfTurns(double radius) {
         double perimetrOfCircle = (2 * PI * radius);
         double numberOfTurns = 1000 / perimetrOfCircle;
-        System.out.println("3. The circle's perimeter is: " + perimetrOfCircle + " meters and it needs " + Math.round(numberOfTurns*100)/100 + " turns to make 1000 km.");
+        System.out.println("3. The circle's perimeter is: " + perimetrOfCircle + " meters and it needs " + Math.round(numberOfTurns * 100) / 100 + " turns to make 1000 km.");
         return perimetrOfCircle;
     }
-//Math.round(a*100)/100
+
+    //Math.round(a*100)/100
     // work :    56.965163, 24.116590
     // courses : 56.959359, 24.119212
     // square : Math.pow(i, 2);
